@@ -1,0 +1,43 @@
+#pgfs-box {
+
+	margin: 0 auto;
+	padding: 0;
+	position:relative;
+}
+
+#pgfs {
+	margin: 0 auto;
+	position: relative;
+}
+
+.pgfs_floom_container {
+	overflow: hidden;
+}
+
+.pgfs_floom_progressbar {
+	height: 3px;
+	background: #ccc;
+	width: 0;
+	position: relative;
+	top: -3px;
+	z-index: 1000;
+	font-size: 1px;
+}
+
+.pgfs_floom_slice {
+	z-index: 10;
+	position: relative;
+}
+
+	
+.pgfs_floom_vertical {
+	float: left;
+}
+
+.pgfs_floom_horizontal {
+	
+}
+
+#pgfs .pgfs_floom_caption {
+
+}
